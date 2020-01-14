@@ -1,5 +1,9 @@
 class Game {
   constructor() {
+    this.reset();
+  }
+
+  reset() {
     this.inProgress = true;
     this.winner = null;
     this.currentTurn = Game.O;

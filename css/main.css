@@ -3,13 +3,27 @@
   margin: 0 auto;
   border: 1px solid brown;
   box-shadow: 0px 0px 5px 5px lightgray;
+  text-align: center;
+}
+
+.restart-button {
+  border: 1px solid darkred;
+  color: white;
+  background-color: maroon;
+  border-radius: 5px;
+
+  width: 100px;
+  display: inline-block;
+  margin-top: 5px;
+
+  cursor: pointer;
 }
 
 .game-info {
   margin: 5px;
   padding: 10px;
-  color: darkgray;
-  background-color: lightgray;
+  color: #444;
+  background-color: #eee;
   font-size: 22px;
   font-weight: bold;
   text-align: center;
